@@ -1,0 +1,77 @@
+html, body{
+    height:100%;
+  }
+  
+  body{
+    background-image: url(../images/one\ piece\ background.jpg);
+    text-align: center;
+    background-size: 1350px;
+  
+  }
+  
+  #wrapper{
+    margin:2.5% auto;
+    background-color: rgba(40, 252, 164, 0.4);
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+  }
+  
+  #subwrapper{
+    position: relative;
+  }
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;;
+  }
+
+  #start-over-button {
+    font-weight: bolder;
+    color: red;
+  }
+  
+  img{
+    height:200px;
+  }
+  
+  h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color:blue;
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    background: pink;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    background: pink;
+  }
+
+  
+  #startButton{
+    margin-top: 10%;
+    border:2px solid blue;
+    background: pink;
+  }
+  
+  
+  
+  button:hover {
+    border:2px solid blue;
+    background: pink;
+  }
